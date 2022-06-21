@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact form.html">CONTACT</a></li>li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+
+
+    <!--------------------------------------courses page start---------------------->
+
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore exercitationem hic quaerat! Cumque, autem, porro ullam architecto error fuga dolorum illo delectus, itaque obcaecati nemo. Eum odio assumenda molestias voluptas. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid cum voluptas inventore itaque suscipit vel doloremque assumenda ducimus maxime, pariatur delectus neque sapiente ea quidem rerum molestiae fugiat placeat! Autem?</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore exercitationem hic quaerat! Cumque, autem, porro ullam architecto error fuga dolorum illo delectus, itaque obcaecati nemo. Eum odio assumenda molestias voluptas. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid cum voluptas inventore itaque suscipit vel doloremque assumenda ducimus maxime, pariatur delectus neque sapiente ea quidem rerum molestiae fugiat placeat! Autem?</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Grafuation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore exercitationem hic quaerat! Cumque, autem, porro ullam architecto error fuga dolorum illo delectus, itaque obcaecati nemo. Eum odio assumenda molestias voluptas. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid cum voluptas inventore itaque suscipit vel doloremque assumenda ducimus maxime, pariatur delectus neque sapiente ea quidem rerum molestiae fugiat placeat! Autem?</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!--------------------------------------facilities part---------------------->
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    
+        <div class="row">
+            <div class="facilities-col">
+                <img src="https://images.unsplash.com/photo-1568667256531-7d5ac92eaa7a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fGxpYnJhcnl8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" height="77%" alt="">
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita eum reprehenderit explicabo aut maiores, necessitatibus excepturi.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="https://images.unsplash.com/photo-1596753486737-333add79864f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80" alt="">
+                <h3>Largest Play Ground</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita eum reprehenderit explicabo aut maiores, necessitatibus excepturi.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="https://images.unsplash.com/photo-1563722897-e6dac3cec340?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzl8fHN0dWRlbnQlMjBjYWZlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                <h3>Tasty and Helthy Food</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita eum reprehenderit explicabo aut maiores, necessitatibus excepturi.</p>
+            </div>
+        </div>
+        
+    </section>
+
+
+
+
+    <!--------------------------------------footer---------------------->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa autem soluta mollitia quia, iure unde magnam eos. <br> Reprehenderit non atque aut pariatur! Magnam, dignissimos eius fuga magni facilis accusantium id.</p>
+    <div class="icons">
+        
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin-in"></i>
+    </div>
+    <p>Made with <i class="far fa-heart"></i> by Simanto Shafiq</p>
+</section>
+
+
+
+
+
+
+<!-------------------------------javascript for toggle menu-------------------->
+
+<script>
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right="0"
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px"
+    }
+
+
+</script>
+
+
+
+</body>
+</html> 
